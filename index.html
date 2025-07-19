@@ -490,6 +490,38 @@ button:hover {
 }-color: violet;
 }
 
+.stats-container {
+    display: flex; /* or display: grid; with grid-template-columns */
+    justify-content: space-around; /* Distributes items evenly */
+    align-items: center; /* Vertically aligns items */
+    padding: 20px;
+    background-color: #f0f0f0; /* Example background color */
+}
+
+.stat-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.over-text {
+    font-size: 14px;
+    color: #555;
+    text-transform: uppercase;
+}
+
+.number {
+    font-size: 48px; /* Adjust as needed */
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-size: 16px;
+    color: #777;
+    text-transform: uppercase;
+}
 
 
         
@@ -750,7 +782,26 @@ button:hover {
 
             </div>
           </div>
-          
+
+    <div class="stats-container">
+        <div class="stat-item">
+            <p class="over-text">OVER</p>
+            <p class="number">1000+</p>
+            <p class="description">CUSTOMERS</p>
+        </div>
+        <div class="stat-item">
+            <p class="over-text">OVER</p>
+            <p class="number">750+</p>
+            <p class="description">TRUSTED COMPANIES</p>
+        </div>
+        <div class="stat-item">
+            <p class="over-text">OVER</p>
+            <p class="number">30+</p>
+            <p class="description">YEARS EXPERIENCE</p>
+        </div>
+    </div>
+    
+    
                   
           <div class="container">
             <div class="card">
