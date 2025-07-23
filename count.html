@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>count</title>
+    <style>
+.stats-container {
+    display: flex; /* or display: grid; with grid-template-columns */
+    justify-content: space-around; /* Distributes items evenly */
+    align-items: center; /* Vertically aligns items */
+    padding: 100px;
+    background-color: #ead4ee; 
+}
+
+.stat-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.over-text {
+    font-size: 30px;
+    color: rgb(48, 45, 45);
+    text-transform: uppercase;
+    font-family: Monotype Corsiva, Times, Serif;
+    font-weight: 700;
+}
+
+.number {
+    font-size: 50px; /* Adjust as needed */
+    font-weight: bold;
+    color: rgb(241, 30, 30);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Monotype Corsiva, Times, Serif;
+
+}
+
+.description {
+    font-size: 35px;
+    color: rgb(2, 2, 2);
+    text-transform: uppercase;
+    font-family: Monotype Corsiva, Times, Serif;
+    font-weight: 900;
+
+}
+
+.video{
+            padding: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+        <div class="video">
+        <video id="myVideo" height="400" width="420" autoplay onended="run();">   
+            <source id="ss"  src="reno14.mp4" type='video/mp4'>
+        </video>
+        <video id="myVideo" height="400" width="420" autoplay onended="run();">   
+            <source id="ss"  src="x200fe.mp4" type='video/mp4'>
+        </video>
+        <video id="myVideo" height="400" width="420" autoplay onended="run();">   
+            <source id="ss"  src="fold7.mp4" type='video/mp4'>
+        </video>
+    </div>
+
+
+
+    <div class="stats-container">
+        <div class="stat-item">
+            <p class="over-text">OVER</p>
+            <p class="number">70000+</p>
+            <p class="description">CUSTOMERS</p>
+        </div>
+        <div class="stat-item">
+            <p class="over-text">OVER</p>
+            <p class="number">750+</p>
+            <p class="description">TRUSTED COMPANIES</p>
+        </div>
+        <div class="stat-item">
+            <p class="over-text">OVER</p>
+            <p class="number">30+</p>
+            <p class="description">YEARS EXPERIENCE</p>
+        </div>
+    </div>
+
+        
+</body>
+</html>
